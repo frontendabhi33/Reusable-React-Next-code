@@ -1,7 +1,10 @@
+// import Card from "@/components/shared/Card";
+import { DeleteConfirmation } from "@/components/shared/DeleteConfirmation";
+
 export default function Home() {
   return (
     <main>
-      <h1>main</h1>
+      <DeleteConfirmation />
     </main>
   );
 }
