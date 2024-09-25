@@ -1,10 +1,10 @@
 // import Card from "@/components/shared/Card";
-import { DeleteConfirmation } from "@/components/shared/DeleteConfirmation";
+import NavItems from "@/components/shared/NavItems";
 
 export default function Home() {
   return (
     <main>
-      <DeleteConfirmation />
+      <NavItems />
     </main>
   );
 }
